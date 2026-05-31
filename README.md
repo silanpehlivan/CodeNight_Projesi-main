@@ -400,8 +400,8 @@ Sorularınız veya önerileriniz için:
 **Son Güncelleme:** 2024-12-09
 
 **Geliştiriciler:**
-Şilan PEHLİVAN
-Semanur YILDIRIM
-İlayda ÖZTÜRK
+- Şilan PEHLİVAN
+- Semanur YILDIRIM
+- İlayda ÖZTÜRK
 
 **Status:** 🟢 Active Development
