@@ -362,7 +362,12 @@ Error: OpenAI API key not found
 
 ## 📄 Lisans
 
-Bu proje ISC lisansı altında yayınlanmıştır.
+Bu proje MIT lisansı altında yayınlanmıştır.
+
+Geliştiriciler:
+- Şilan PEHLİVAN
+- Semanur YILDIRIM
+- İlayda ÖZTÜRK
 
 ---
 
