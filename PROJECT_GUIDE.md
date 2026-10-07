@@ -91,7 +91,7 @@ Eğitim uygulamasıdır; mevcut dokümantasyonda belirtilen parola saklama sın�
 1. **Projeyi klonla veya indir**
 ```bash
 git clone https://github.com/silanpehlivan/CodeNight_Projesi-main.git
-cd CampuSupport
+cd CodeNight_Projesi-main
 ```
 
 2. **Bağımlılıkları yükle**
