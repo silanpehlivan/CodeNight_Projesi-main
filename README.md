@@ -1,28 +1,56 @@
-# CampuSupport - Kampüs Destek & Ticket Yönetim Sistemi
+<div align="center">
 
-## 📋 Proje Açıklaması
+# CampuSupport
+
+**Kampüs destek ve ticket yönetimi**
+
+![Node.js](https://img.shields.io/badge/Node.js-2563eb?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-0891b2?style=flat-square)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-7c3aed?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Kampüs sorunlarını ticket, yorum ve departman akışlarıyla yöneten; AI kategori ve öncelik önerileri içeren eğitim projesi.
+
+</div>
+
+---
+
+## Öne Çıkanlar
+
+- Student, Support, Department ve Admin rolleri
+- Ticket yaşam döngüsü ve departman analitikleri
+- AI önerileri, e-posta ve Slack bildirim entegrasyonları
+
+## Teknolojiler
+
+Node.js · SQLite · OpenAI API
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
+## Proje Açıklaması
 
 **CampuSupport**, kampüs içinde yaşanan sorunları (Wi-Fi kopması, LMS erişim sorunları, yapı onarımları vb.) yönetmek için geliştirilmiş kapsamlı bir **Ticket Yönetim Sistemi**'dir.
 
 ### Bölüm 1 - Temel Özellikler
-- ✅ Kullanıcı kaydı ve girişi
-- ✅ Ticket oluşturma, listeleme, güncelleme
-- ✅ Rol tabanlı erişim kontrolü (Student, Support, Department, Admin)
-- ✅ Yorum sistemi (Comment Thread)
-- ✅ Departman yönetimi
-- ✅ Basit filtreleme ve sıralama
+- Kullanıcı kaydı ve girişi
+- Ticket oluşturma, listeleme, güncelleme
+- Rol tabanlı erişim kontrolü (Student, Support, Department, Admin)
+- Yorum sistemi (Comment Thread)
+- Departman yönetimi
+- Basit filtreleme ve sıralama
 
 ### Bölüm 2 - AI & API Entegrasyonu
-- 🤖 **AI Destekli Kategori/Öncelik Önerisi** - OpenAI API ile otomatik sınıflandırma
-- 📧 **Harici Bildirim API'leri** - Email, Slack entegrasyonu
-- 🔄 **GitHub Workflow** - main, dev, feature branch'ları
-- 🚀 **CI Pipeline** - GitHub Actions ile otomatik test
-- 📊 **Logging Sistemi** - Tüm işlemlerin kaydedilmesi
-- 📈 **Departman Analitikleri** - İstatistikler ve raporlar
+- **AI Destekli Kategori/Öncelik Önerisi** - OpenAI API ile otomatik sınıflandırma
+- **Harici Bildirim API'leri** - Email, Slack entegrasyonu
+- **GitHub Workflow** - main, dev, feature branch'ları
+- **CI Pipeline** - GitHub Actions ile otomatik test
+- **Logging Sistemi** - Tüm işlemlerin kaydedilmesi
+- **Departman Analitikleri** - İstatistikler ve raporlar
 
 ---
 
-## 🚀 Hızlı Başlangıç
+## Hızlı Başlangıç
 
 ### Gereksinimler
 - **Node.js** 16.x veya üzeri
@@ -33,7 +61,7 @@
 
 1. **Projeyi klonla veya indir**
 ```bash
-git clone https://github.com/yourusername/CampuSupport.git
+git clone https://github.com/silanpehlivan/CodeNight_Projesi-main.git
 cd CampuSupport
 ```
 
@@ -65,7 +93,7 @@ Sunucu `http://localhost:3000` adresinde çalışacaktır.
 
 ---
 
-## 📝 Çalıştırma Komutları
+## Çalıştırma Komutları
 
 ### Temel Komutlar
 
@@ -118,7 +146,7 @@ grep "error" logs/app.log
 
 ---
 
-##Proje Yapısı
+## Proje Yapısı
 
 ```
 CampuSupport/
@@ -152,7 +180,7 @@ CampuSupport/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Kullanıcı kaydı
@@ -179,7 +207,7 @@ CampuSupport/
 
 ---
 
-## 🤖 AI Özellikleri (Hafta 2)
+## AI Özellikleri (Hafta 2)
 
 ### Kategori Önerisi
 Yeni ticket açılırken, sistem otomatik olarak açıklamadan kategori önerir:
@@ -203,12 +231,12 @@ Support personeli için AI tarafından oluşturulmuş cevap taslağı sunulur.
 
 ---
 
-## 📧 Bildirim Sistemi (Hafta 2)
+## Bildirim Sistemi (Hafta 2)
 
 ### Desteklenen Kanallar
-- 📧 Email
-- 💬 Slack Webhook
-- 📱 SMS (genişletilebilir)
+- Email
+- Slack Webhook
+- SMS (genişletilebilir)
 
 ### Bildirim Türleri
 1. **Ticket Çözüldü** - Ticket sahibine bildirim
@@ -217,7 +245,7 @@ Support personeli için AI tarafından oluşturulmuş cevap taslağı sunulur.
 
 ---
 
-## 📊 Logging Sistemi (Hafta 2)
+## Logging Sistemi (Hafta 2)
 
 Tüm önemli işlemler `./logs/app.log` dosyasına kaydedilir:
 
@@ -229,7 +257,7 @@ Tüm önemli işlemler `./logs/app.log` dosyasına kaydedilir:
 
 ---
 
-## 🔄 Git Workflow (Hafta 2)
+## Git Workflow (Hafta 2)
 
 ### Branch Yapısı
 ```
@@ -260,7 +288,7 @@ chore: update dependencies
 
 ---
 
-## 🧪 Testing (Hafta 2)
+## Testing (Hafta 2)
 
 ### Test Çalıştırma
 ```bash
@@ -284,10 +312,10 @@ npm test -- --watch
 
 ---
 
-## 🔐 Güvenlik
+## Güvenlik
 
 ### Şifre Yönetimi
-⚠️ **Uyarı:** Mevcut sistemde şifreler düz metin olarak saklanmaktadır. Production ortamında:
+ **Uyarı:** Mevcut sistemde şifreler düz metin olarak saklanmaktadır. Production ortamında:
 - Bcrypt veya Argon2 ile şifreler hash'lenmelidir
 - JWT token'ları kullanılmalıdır
 - HTTPS zorunlu olmalıdır
@@ -299,7 +327,7 @@ npm test -- --watch
 
 ---
 
-## 📚 Kullanıcı Rolleri
+## Kullanıcı Rolleri
 
 | Rol | Yetkiler |
 |-----|----------|
@@ -310,7 +338,7 @@ npm test -- --watch
 
 ---
 
-## 🐛 Sorun Giderme
+## Sorun Giderme
 
 ### Veritabanı Hatası
 ```
@@ -340,7 +368,7 @@ Error: OpenAI API key not found
 
 ---
 
-## 📈 İstatistikler
+## İstatistikler
 
 - **Toplam Endpoint'ler:** 14
 - **Veritabanı Tabloları:** 5
@@ -350,7 +378,7 @@ Error: OpenAI API key not found
 
 ---
 
-## 🤝 Katkıda Bulunma
+## Katkıda Bulunma
 
 1. Projeyi fork'la
 2. Feature branch oluştur (`git checkout -b feature/AmazingFeature`)
@@ -359,8 +387,6 @@ Error: OpenAI API key not found
 5. Pull Request oluştur
 
 ---
-
-## 📄 Lisans
 
 Bu proje MIT lisansı altında yayınlanmıştır.
 
@@ -371,16 +397,16 @@ Geliştiriciler:
 
 ---
 
-## 📞 İletişim
+## İletişim
 
 Sorularınız veya önerileriniz için:
-- 📧 Email: support@campusupport.com
-- 🐛 Issues: GitHub Issues
-- 💬 Discussions: GitHub Discussions
+- Email: support@campusupport.com
+- Issues: GitHub Issues
+- Discussions: GitHub Discussions
 
 ---
 
-## 🎯 Gelecek Özellikler
+## Gelecek Özellikler
 
 - [ ] Real-time notifications (WebSocket)
 - [ ] Mobile app
@@ -393,7 +419,7 @@ Sorularınız veya önerileriniz için:
 
 ---
 
-## 📝 Sürüm Tarihi
+## Sürüm Tarihi
 
 | Versiyon | Tarih | Açıklama |
 |----------|-------|----------|
@@ -409,4 +435,18 @@ Sorularınız veya önerileriniz için:
 - Semanur YILDIRIM
 - İlayda ÖZTÜRK
 
-**Status:** 🟢 Active Development
+**Status:**  Active Development
+
+</details>
+
+> **Güvenlik notu:** Mevcut dokümantasyonda parolaların düz metin saklandığı belirtilmektedir. Üretim kullanımı için parola hashleme ve diğer güvenlik kontrolleri tamamlanmalıdır.
+
+---
+
+<div align="center">
+
+**© 2024 Şilan PEHLİVAN, Semanur YILDIRIM and İlayda ÖZTÜRK**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>
