@@ -2,18 +2,33 @@
 
 # CampuSupport
 
-**Kampüs destek ve ticket yönetimi**
+### Kampüs sorunları için tek bir destek akışı.
 
-![Node.js](https://img.shields.io/badge/Node.js-2563eb?style=flat-square)
-![SQLite](https://img.shields.io/badge/SQLite-0891b2?style=flat-square)
-![OpenAI API](https://img.shields.io/badge/OpenAI%20API-7c3aed?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![Node.js](https://img.shields.io/badge/Node.js-2563eb?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-0891b2?style=for-the-badge)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-7c3aed?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Kampüs sorunlarını ticket, yorum ve departman akışlarıyla yöneten; AI kategori ve öncelik önerileri içeren eğitim projesi.
+
+**Kampüs destek ve ticket yönetimi**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/CodeNight_Projesi-main/tree/main) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Student, Support, Department ve Admin rolleri
+- **02** · Ticket yaşam döngüsü ve departman analitikleri
+- **03** · AI önerileri, e-posta ve Slack bildirim entegrasyonları
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -25,23 +40,22 @@ Kampüs sorunlarını ticket, yorum ve departman akışlarıyla yöneten; AI kat
 
 Node.js · SQLite · OpenAI API
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Express sunucusu ticket işlemlerini yönetir; SQLite veri katmanı ve ayrı AI/bildirim servisleri uygulama akışını tamamlar. Jest/Supertest dosyaları API davranışını incelemeye yardımcı olur.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [package.json](package.json)
 - [.eslintrc.json](.eslintrc.json)
 - [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
 - [public/index.html](public/index.html)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Eğitim uygulamasıdır; mevcut dokümantasyonda belirtilen parola saklama sınırı üretim kullanımından önce ele alınmalıdır. Testlerin mevcut olması bu düzenleme sırasında çalıştırıldığı anlamına gelmez.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 ## Proje Açıklaması
 
@@ -452,9 +466,11 @@ Sorularınız veya önerileriniz için:
 
 **Status:**  Active Development
 
-</details>
+
 
 > **Güvenlik notu:** Mevcut dokümantasyonda parolaların düz metin saklandığı belirtilmektedir. Üretim kullanımı için parola hashleme ve diğer güvenlik kontrolleri tamamlanmalıdır.
+
+</details>
 
 ---
 
