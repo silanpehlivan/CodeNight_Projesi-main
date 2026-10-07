@@ -25,6 +25,21 @@ Kampüs sorunlarını ticket, yorum ve departman akışlarıyla yöneten; AI kat
 
 Node.js · SQLite · OpenAI API
 
+## Teknik yaklaşım
+
+Express sunucusu ticket işlemlerini yönetir; SQLite veri katmanı ve ayrı AI/bildirim servisleri uygulama akışını tamamlar. Jest/Supertest dosyaları API davranışını incelemeye yardımcı olur.
+
+## Kodu incelemeye başlayın
+
+- [package.json](package.json)
+- [.eslintrc.json](.eslintrc.json)
+- [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+- [public/index.html](public/index.html)
+
+## Kapsam ve sınırlar
+
+Eğitim uygulamasıdır; mevcut dokümantasyonda belirtilen parola saklama sınırı üretim kullanımından önce ele alınmalıdır. Testlerin mevcut olması bu düzenleme sırasında çalıştırıldığı anlamına gelmez.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
